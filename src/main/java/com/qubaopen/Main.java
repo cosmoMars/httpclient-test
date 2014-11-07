@@ -12,7 +12,7 @@ public class Main {
 
 		JSONObject user = new JSONObject();
 		user.put("phone", "13621673989");
-		user.put("password", "123456aa");
+		user.put("password", "11111111");
 
 		HttpClient client = new HttpClient();
 		PutMethod put = new PutMethod("http://localhost:8081/users/login");
